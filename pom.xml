@@ -7,6 +7,11 @@
     <groupId>com.sonarqube.example</groupId>
     <artifactId>sonarqube-maven-example</artifactId>
     <version>1.0-SNAPSHOT</version>
+<properties>
+<sonar.host.url>http://18.220.35.150:9000/</sonar.host.url>
+<sonar.login>admin</sonar.login>
+<sonar.password>shaik151</sonar.password> 
+</properties>
 
     <name>Example of basic Maven project to integrate with SonarQube</name>
 
